@@ -1,0 +1,9 @@
+PostgreSQL 11:
+
+Metric	pg_stat_monitor	pg_stat_statements
+Query Execution Time	Average: 5 ms	Average: 10 ms
+Query Count	Total: 2000	Total: 3000
+Query Types	SELECT: 1000<br>UPDATE: 500<br>INSERT: 300<br>DELETE: 200	SELECT: 1500<br>UPDATE: 500<br>INSERT: 700<br>DELETE: 300
+Most Executed Query	SELECT * FROM users WHERE id = 1	SELECT * FROM products WHERE price > 100
+Top Query by Execution Time	UPDATE orders SET status = 'completed' WHERE id = 100	SELECT * FROM customers WHERE country = 'USA'
+
